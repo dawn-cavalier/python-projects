@@ -12,7 +12,7 @@ def main(cupOneSize, cupTwoSize):
         smallerCup = cupOneSize
     
     if largerCup % smallerCup == 0:
-        raise Exception('Cups need to be relative primes.')
+        raise Exception('Cups need to be relatively primes.')
     
     
     validStates = []
